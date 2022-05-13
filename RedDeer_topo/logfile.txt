@@ -1,0 +1,46 @@
+Log for creating 3D model tile(s) for  V2_2_-113.81_52.27 
+ 
+DEM_name = JAXA/ALOS/AW3D30/V2_2 
+trlat = 52.358683424268776 
+trlon = -113.65886946983338 
+bllat = 52.185997103350125 
+bllon = -113.96304627723696 
+printres = 0.4 
+ntilesx = 1 
+ntilesy = 1 
+tilewidth = 110.0 
+basethick = 3 
+zscale = 3.0 
+fileformat = STLb 
+no_bottom = False 
+unprojected = False 
+no_normals = True 
+
+process started: 21:10:05.810325 
+
+Region (lat/lon):
+   52.358683424268776 -113.65886946983338 (top right)
+   52.185997103350125 -113.96304627723696 (bottom left) 
+center at [-113.81095787353516, 52.272340263809454]  UTM 12 N ,  EPSG:32612 
+lon/lat size in degrees: [0.30417680740357866, 0.17268632091865044] 
+Earth Engine raster: JAXA/ALOS/AW3D30/V2_2 
+ ALOS DSM: Global 30m 
+URL for geotiff is:  https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/b264d6952a573851d9bfe15af1d41175-913567651f4df5bbf86ca379cdb7778f:getPixels 
+ geotiff size: 0.05587196350097656 Mb 
+ cell size 75.50270587649996 m, upper left corner (x/y):  297405.1584475333 5805101.0440205755 
+full (untiled) raster (height,width)  (266, 286) float64 elev. min/max: 800.0 1017.0 
+cell size: 75.50270587649996 m  
+adjusted print res from the requested 0.4 mm to 0.38461538461538464 mm to ensure correct model dimensions 
+total model size in mm: 110.0 x 102.3076923076923 
+map scale is 1 : 196307.03527889992 
+Cells per tile (x/y) 286 x 266 
+using single-core only 
+
+1 x 1 tiles, tile size 110.00 x 102.31 mm
+ 
+tile 1 1 : height:  3.0 - 12.948701009239471 mm , file size: 15 Mb 
+
+total size for all tiles: 15 Mb 
+added full geotiff as V2_2_-113.81_52.27.tif 
+
+processing finished: 21:10:11.412757 
